@@ -1,0 +1,122 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 120px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.about__cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  margin: 0;
+  max-width: 1440px;
+}
+
+.about__techs {
+  max-width: 745px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+}
+
+.about__techs-list {
+  max-width: 745px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  padding: 38px 0;
+  list-style: none;
+  text-align: center;
+}
+
+.about__my-techs-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 1440px;
+  width: 70%;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  padding: 38px 0;
+  list-style: none;
+  margin: 0;
+}
+
+.about__my-techs-list-item {
+  margin: 0 10px;
+  position: relative;
+  width: 10%;
+  text-align: center;
+}
+
+.about__my-techs-list-item:hover .about__my-techs-list-text{
+  opacity: 1;
+}
+
+.about__my-techs-list-item:hover .bx{
+  color: #27AE60;
+}
+
+.about__my-techs-list-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  text-transform: capitalize;
+  width: 100%;
+  opacity: 0;
+}
+
+.about__card-icon {
+  width: 62px;
+  height: 62px;
+  background-color: #212121;
+  border-radius: 50%;
+  position: relative;
+}
+
+.about__card-icon::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #27AE60;
+  transform: translate(-50%, -50%);
+}
+
+.about__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+}
+
+.about__card-title {
+  margin: 0;
+  padding: 18px 0 3px;
+}
+
+.about__card-subtitle {
+  margin: 0;
+  padding: 0;
+}
