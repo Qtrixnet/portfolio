@@ -6,9 +6,9 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero__info">
-        <h2 className="hero__title">Привет, я</h2>
+        <h2 className="hero__title">👋 Привет, я</h2>
         <h2 className="hero__title">Кирилл Шашичев</h2>
-        <h1 className="hero__subtitle">Junior frontend разработчик</h1>
+        <h1 className="hero__subtitle">&lt;h1&gt; Junior frontend разработчик &lt;/h1&gt;</h1>
         <ul className="hero__list">
           <li className="hero__list-item">
             <a href={avatar} download className="hero__link">Скачать резюме</a>

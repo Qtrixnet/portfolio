@@ -1,0 +1,43 @@
+.footer {
+  padding: 30px 80px;
+  width: 100%; 
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer__cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+}
+
+.footer__card-icon {
+  width: 62px;
+  height: 62px;
+  background-color: #212121;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: #27AE60;
+}
+
+.footer__card-title {
+  margin: 0;
+  padding: 18px 0 3px;
+}
+
+.footer__card-subtitle {
+  margin: 0;
+  padding: 0;
+}

@@ -8,6 +8,11 @@
   padding: 30px 80px;
 }
 
+.header__logo {
+  width: 28px;
+  margin-right: 10px;
+}
+
 .header__nav {
   padding: 0;
 }
@@ -22,7 +27,6 @@
 }
 
 .header__link {
-  padding: 10px 20px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
@@ -39,4 +43,15 @@
   font-size: 36px;
   line-height: 1.2;
   margin: 0;
+  display: flex;
+}
+
+.header__link-effect {
+  opacity: 0;
+  color: white;
+}
+
+.header__link:hover .header__link-effect {
+  opacity: 1;
+  /* color: #27AE60; */
 }

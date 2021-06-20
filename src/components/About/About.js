@@ -25,35 +25,39 @@ function About() {
       <p className="about__techs">Используемые языки и технологии:</p>
       <ul className="about__my-techs-list">
         <li title="javascript" className="about__my-techs-list-item">
-          <i class="bx bxl-javascript"></i>
+          <i className="bx bxl-javascript"></i>
           <span className="about__my-techs-list-text">javascript</span>
         </li>
         <li title="react" className="about__my-techs-list-item">
-          <i class="bx bxl-react"></i>
+          <i className="bx bxl-react"></i>
           <span className="about__my-techs-list-text">react js</span>
         </li>
         <li title="redux" className="about__my-techs-list-item">
-          <i class="bx bxl-redux"></i>
+          <i className="bx bxl-redux"></i>
           <span className="about__my-techs-list-text">redux</span>
         </li>
         <li title="node js" className="about__my-techs-list-item">
-          <i class="bx bxl-nodejs"></i>
+          <i className="bx bxl-nodejs"></i>
           <span className="about__my-techs-list-text">node js</span>
         </li>
+        <li title="git" className="about__my-techs-list-item">
+          <i className="bx bxl-git"></i>
+          <span className="about__my-techs-list-text">git</span>
+        </li>
         <li title="sass" className="about__my-techs-list-item">
-          <i class="bx bxl-sass"></i>
+          <i className="bx bxl-sass"></i>
           <span className="about__my-techs-list-text">sass</span>
         </li>
         <li title="css3" className="about__my-techs-list-item">
-          <i class="bx bxl-css3"></i>
+          <i className="bx bxl-css3"></i>
           <span className="about__my-techs-list-text">css3</span>
         </li>
         <li title="html5" className="about__my-techs-list-item">
-          <i class="bx bxl-html5"></i>
+          <i className="bx bxl-html5"></i>
           <span className="about__my-techs-list-text">html5</span>
         </li>
       </ul>
-      <div className="about__cards">
+      {/* <div className="about__cards">
         <div className="about__card">
           <div className="about__card-icon"></div>
           <h4 className="about__card-title">Имя</h4>
@@ -79,7 +83,7 @@ function About() {
           <h4 className="about__card-title">Github</h4>
           <p className="about__card-subtitle">Qtrixnet</p>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

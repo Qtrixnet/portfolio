@@ -5,15 +5,14 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 125px 80px 50px;
+  padding: 50px 80px;
 }
 
 .hero__avatar {
-  width: 650px;
-  height: 650px;
+  width: 550px;
+  height: 550px;
   border-radius: 50%;
-  border: 50px solid #1E1D1D;
-  box-shadow: 0 0 0 2px rgb(41, 41, 41);
+  border: 20px solid #1E1D1D;
 }
 
 .hero__title {

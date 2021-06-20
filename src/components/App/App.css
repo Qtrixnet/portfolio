@@ -4,10 +4,15 @@
   background-color: #171717;
   color: white;
   min-height: 100vh;
+  /* background-image: url('../../images/block.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode:color-dodge; */
 }
 
 .App * {
-  /* outline: 1px solid red; */
+  outline: 1px dotted rgb(161, 161, 161);
   box-sizing: border-box;
   transition: all .2s ease-in-out;
   font-family: 'DM Sans', sans-serif;
