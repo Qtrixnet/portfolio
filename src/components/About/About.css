@@ -72,3 +72,40 @@
   width: 100%;
   opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+  .about__my-techs-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about {
+    padding: 20px;
+  }
+  .about__my-techs-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+  }
+  .about__title {
+    font-size: 32px;
+    padding: 0 0 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about__my-techs-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+  }
+  .about__techs {
+    text-align: center;
+  }
+  .about__techs-list {
+    padding: 0 0 30px;
+  }
+}

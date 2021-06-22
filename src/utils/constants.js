@@ -1,11 +1,11 @@
 import howToLearn from "../images/how-to-learn.png";
 import russianTravel from "../images/russian-travel.png";
 import mesto from "../images/mesto.png";
-// import howToLearn from "../images/how-to-learn.png";
+import movies from "../images/movies.png";
 
 export const projects = [
   {
-    picture: howToLearn,
+    picture: movies,
     name: "Дипломный проект Я.Практикум",
     details: "Приложение c бэкендом (React JS, Express, MongoDB)",
     demo: "Github pages",
@@ -44,4 +44,18 @@ export const projects = [
     githuLink: "https://github.com/Qtrixnet/how-to-learn",
     id: 4,
   },
+]
+
+export const aboutMe = {
+  name: 'Кирилл Шашичев',
+  profession: 'Junior frontend-разработчик',
+  cv: 'https://github.com/Qtrixnet',
+  github: 'https://github.com/Qtrixnet'
+}
+
+export const myTargets = [
+  '🧼 Стараюсь писать чистый код',
+  '😎 Хочу работать в команде опытных профессионалов',
+  '🔥 Хочу работать в высоконагруженных проектах',
+  '⏱ Учусь анализировать сложность алгоритмов / улучшать производительность',
 ]

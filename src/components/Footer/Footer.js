@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contacts">
       <div className="footer__cards">
         <div className="footer__card">
           <div className="footer__card-icon"><i className='bx bx-id-card'></i></div>

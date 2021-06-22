@@ -35,7 +35,7 @@
 }
 
 .header__link:hover {
-  color: #27AE60;
+  color: #27ae60;
 }
 
 .header__title {
@@ -53,5 +53,23 @@
 
 .header__link:hover .header__link-effect {
   opacity: 1;
-  /* color: #27AE60; */
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .header__list {
+    flex-direction: column;
+  }
+  .header__link {
+    font-size: 28px;
+  }
+  .header__list-item {
+    padding: 20px;
+  }
+  .header__nav {
+    padding: 20px;
+  }
 }
