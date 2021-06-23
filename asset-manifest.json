@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a452a8bb.chunk.css",
+    "main.js": "/static/js/main.d217f968.chunk.js",
+    "main.js.map": "/static/js/main.d217f968.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bcfff28e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bcfff28e.js.map",
+    "static/js/2.f23cfc0b.chunk.js": "/static/js/2.f23cfc0b.chunk.js",
+    "static/js/2.f23cfc0b.chunk.js.map": "/static/js/2.f23cfc0b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a452a8bb.chunk.css.map": "/static/css/main.a452a8bb.chunk.css.map",
+    "static/js/2.f23cfc0b.chunk.js.LICENSE.txt": "/static/js/2.f23cfc0b.chunk.js.LICENSE.txt",
+    "static/media/Kirill-Shashichev.71a2e2cb.pdf": "/static/media/Kirill-Shashichev.71a2e2cb.pdf",
+    "static/media/avatar.06b96302.png": "/static/media/avatar.06b96302.png",
+    "static/media/block.2fdc7e9f.svg": "/static/media/block.2fdc7e9f.svg",
+    "static/media/how-to-learn.daa66f5c.png": "/static/media/how-to-learn.daa66f5c.png",
+    "static/media/mesto.76133218.png": "/static/media/mesto.76133218.png",
+    "static/media/movies.512475ca.png": "/static/media/movies.512475ca.png",
+    "static/media/russian-travel.3ced5d47.png": "/static/media/russian-travel.3ced5d47.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bcfff28e.js",
+    "static/js/2.f23cfc0b.chunk.js",
+    "static/css/main.a452a8bb.chunk.css",
+    "static/js/main.d217f968.chunk.js"
+  ]
+}
