@@ -31,6 +31,7 @@
   font-size: 28px;
   color: #27AE60;
   text-decoration: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .footer__card-icon_active:hover {

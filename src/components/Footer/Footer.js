@@ -43,7 +43,7 @@ function Footer() {
             href="https://t.me/cyril_sv"
             className="footer__card-icon footer__card-icon_active"
             target="_blank"
-            title="Написать в Whatsapp"
+            title="Написать в Telegram"
             rel="noopener noreferrer"
           >
             <i className="bx bxl-telegram"></i>
