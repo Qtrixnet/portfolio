@@ -52,7 +52,7 @@
 }
 
 .header__link:hover .header__link-effect {
-  opacity: 1;
+  opacity: .1;
 }
 
 @media screen and (max-width: 425px) {

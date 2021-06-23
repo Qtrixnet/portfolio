@@ -28,7 +28,7 @@ function Projects() {
                 {project.demo}
               </a>
               <a
-                href={project.githuLink}
+                href={project.githubLink}
                 target="_blank"
                 rel="noreferrer"
                 className="project__details-link"
