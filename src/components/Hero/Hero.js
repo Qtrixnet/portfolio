@@ -48,7 +48,7 @@ function Hero() {
           </li>
         </ul>
       </div>
-      <img src={avatar} className="hero__avatar" alt="Аватар" />
+      <img src={avatar ? avatar : "#"} className="hero__avatar" alt="Аватар" />
     </section>
   );
 }
