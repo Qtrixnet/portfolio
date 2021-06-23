@@ -13,6 +13,8 @@
   height: 550px;
   border-radius: 50%;
   border: 20px solid #1e1d1d;
+  object-fit: cover;
+  filter: hue-rotate(-10deg);
 }
 
 .hero__title {
