@@ -7,7 +7,7 @@
 
 .footer__cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -30,6 +30,12 @@
   align-items: center;
   font-size: 28px;
   color: #27AE60;
+  text-decoration: none;
+}
+
+.footer__card-icon_active:hover {
+  opacity: .8;
+  background-color: white;
 }
 
 .footer__card-title {
