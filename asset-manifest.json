@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.433e7681.chunk.css",
-    "main.js": "./static/js/main.0d5fb71a.chunk.js",
-    "main.js.map": "./static/js/main.0d5fb71a.chunk.js.map",
+    "main.css": "./static/css/main.9c999b75.chunk.css",
+    "main.js": "./static/js/main.47fdde31.chunk.js",
+    "main.js.map": "./static/js/main.47fdde31.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.215e00d2.js",
     "runtime-main.js.map": "./static/js/runtime-main.215e00d2.js.map",
     "static/js/2.d43585a3.chunk.js": "./static/js/2.d43585a3.chunk.js",
     "static/js/2.d43585a3.chunk.js.map": "./static/js/2.d43585a3.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.433e7681.chunk.css.map": "./static/css/main.433e7681.chunk.css.map",
+    "static/css/main.9c999b75.chunk.css.map": "./static/css/main.9c999b75.chunk.css.map",
     "static/js/2.d43585a3.chunk.js.LICENSE.txt": "./static/js/2.d43585a3.chunk.js.LICENSE.txt",
     "static/media/Kirill-Shashichev.71a2e2cb.pdf": "./static/media/Kirill-Shashichev.71a2e2cb.pdf",
     "static/media/avatar.7d3603ff.png": "./static/media/avatar.7d3603ff.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.215e00d2.js",
     "static/js/2.d43585a3.chunk.js",
-    "static/css/main.433e7681.chunk.css",
-    "static/js/main.0d5fb71a.chunk.js"
+    "static/css/main.9c999b75.chunk.css",
+    "static/js/main.47fdde31.chunk.js"
   ]
 }
