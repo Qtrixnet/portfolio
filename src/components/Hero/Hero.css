@@ -12,10 +12,11 @@
   width: 550px;
   height: 550px;
   border-radius: 50%;
+  border: 10px solid var(--main-bg-color);
   object-fit: cover;
   filter: hue-rotate(-10deg);
   background-color: var(--accent-color);
-  box-shadow: -50px 100px 500px var(--accent-color);
+  /* box-shadow: 50px -100px 500px var(--accent-color); */
 }
 
 .hero__title {

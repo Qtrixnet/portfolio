@@ -1,26 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
 :root {
-  --main-bg-color: #121B2B;
+  --main-bg-color: #121b2b;
   --text-color: #e6e6e9;
   --subtext-color: #4e4e50;
-  --accent-color: #6F85DE;
-  --icon-color: #6F85DE;
+  --accent-color: #6f85de;
+  --icon-color: #6f85de;
 }
 @keyframes rotate {
   0% {
-    filter: hue-rotate(0deg)
+    filter: hue-rotate(0deg);
   }
   50% {
-    filter: hue-rotate(360deg)
+    filter: hue-rotate(360deg);
   }
   100% {
-    filter: hue-rotate(0deg)
+    filter: hue-rotate(0deg);
   }
 }
 
 .App {
   background-color: var(--main-bg-color);
+  background: rgb(111, 133, 222);
+  background: radial-gradient(
+    circle,
+    var(--accent-color) 0%,
+    var(--main-bg-color) 100%
+  );
   color: var(--text-color);
   min-height: 100vh;
   /* animation: rotate 1s linear infinite; */
@@ -28,8 +34,9 @@
 
 .App * {
   box-sizing: border-box;
-  transition: all .2s ease-in-out;
-  font-family: 'DM Sans', sans-serif;
+  /* outline: 1px solid var(--accent-color); */
+  transition: all 0.2s ease-in-out;
+  font-family: "DM Sans", sans-serif;
 }
 
 .App *::selection {
