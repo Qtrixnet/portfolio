@@ -6,6 +6,7 @@
   align-items: center;
   margin: 0 auto;
   padding: 30px 80px;
+  z-index: 9999;
 }
 
 .header__logo {
@@ -31,11 +32,11 @@
   font-size: 18px;
   line-height: 1.2;
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
 }
 
 .header__link:hover {
-  color: #27ae60;
+  color: var(--accent-color);
 }
 
 .header__title {
@@ -52,7 +53,7 @@
 }
 
 .header__link:hover .header__link-effect {
-  opacity: .1;
+  opacity: .3;
 }
 
 @media screen and (max-width: 425px) {

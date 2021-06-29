@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer__cards">
         <div className="footer__card">
           <div className="footer__card-icon">
-            <i className="bx bx-id-card"></i>
+            <i className="bx bxs-user"></i>
           </div>
           <h4 className="footer__card-title">Имя</h4>
           <p className="footer__card-subtitle">Кирилл Шашичев</p>

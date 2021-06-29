@@ -8,7 +8,7 @@ function Projects() {
       <h3 className="projects__title">Проекты</h3>
       <div className="projects__container">
         {projects.map((project) => {
-          return (<div className="projects__project">
+          return (<div key={project.id} className="projects__project">
             <img
               className="projects__image"
               alt={project.name}

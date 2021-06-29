@@ -22,21 +22,22 @@
 .footer__card-icon {
   width: 62px;
   height: 62px;
-  background-color: #212121;
   border-radius: 50%;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 28px;
-  color: #27AE60;
+  color: var(--accent-color);
   text-decoration: none;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid var(--accent-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .footer__card-icon_active:hover {
   opacity: .8;
-  background-color: white;
+  background-color: var(--text-color);
+  border-color: transparent;
 }
 
 .footer__card-title {
