@@ -1,23 +1,9 @@
 import "./Hero.css";
 import React, { useState } from "react";
-// import avatar from "../../images/avatar.JPG";
 import { aboutMe } from "../../utils/constants";
 import cv from "../../images/Kirill-Shashichev.pdf"
 
 function Hero() {
-  const [cursorPositionX, setCursorPositionX] = useState(0);
-  const [cursorPositionY, setCursorPositionY] = useState(0);
-
-  const linkHoverEffect = (e) => {
-    setCursorPositionX(e.pageX - e.target.offsetLeft);
-    setCursorPositionY(e.pageY - e.target.offsetTop);
-  }
-
-  const linkStyle = {
-    top: cursorPositionY,
-    left: cursorPositionX,
-    backgroundColor: '#0b7939',
-  }
 
   return (
     <section className="hero">
@@ -29,26 +15,22 @@ function Hero() {
         </h1>
         <ul className="hero__list">
           <li className="hero__list-item">
-            <a href={cv} onMouseMove={linkHoverEffect} download className="hero__link">
-              {/* <div style={linkStyle} className="hero__link_circle"></div> */}
-              <span>Скачать резюме</span>
+            <a href={cv}  download className="hero__link">
+              Скачать резюме
             </a>
           </li>
           <li className="hero__list-item">
             <a
               href={aboutMe.github}
-              onMouseMove={linkHoverEffect}
               rel="noreferrer"
               target="_blank"
               className="hero__link"
             >
-              {/* <div style={linkStyle} className="hero__link_circle"></div> */}
-              <span>Аккаунт на Github</span>
+              Аккаунт на Github
             </a>
           </li>
         </ul>
       </div>
-      {/* <img src={avatar ? avatar : "#"} className="hero__avatar" alt="Аватар" /> */}
       <div className="hero__avatar"></div>
     </section>
   );
