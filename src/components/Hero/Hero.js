@@ -1,6 +1,6 @@
 import "./Hero.css";
 import React, { useState } from "react";
-import avatar from "../../images/avatar.png";
+// import avatar from "../../images/avatar.JPG";
 import { aboutMe } from "../../utils/constants";
 import cv from "../../images/Kirill-Shashichev.pdf"
 
@@ -48,7 +48,8 @@ function Hero() {
           </li>
         </ul>
       </div>
-      <img src={avatar ? avatar : "#"} className="hero__avatar" alt="Аватар" />
+      {/* <img src={avatar ? avatar : "#"} className="hero__avatar" alt="Аватар" /> */}
+      <div className="hero__avatar"></div>
     </section>
   );
 }

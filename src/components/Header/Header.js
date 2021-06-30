@@ -23,20 +23,17 @@ function Header() {
         <ul className="header__list">
           <li className="header__list-item">
             <Link to="#about" className="header__link">
-              <span className="header__link-effect">&lt;a&gt;</span> Обо мне{" "}
-              <span className="header__link-effect">&lt;/a&gt;</span>
+              Обо мне
             </Link>
           </li>
           <li className="header__list-item">
             <Link to="#projects" className="header__link">
-              <span className="header__link-effect">&lt;a&gt;</span> Проекты{" "}
-              <span className="header__link-effect">&lt;/a&gt;</span>
+              Проекты
             </Link>
           </li>
           <li className="header__list-item">
             <Link to="#contacts" className="header__link">
-              <span className="header__link-effect">&lt;a&gt;</span> Контакты{" "}
-              <span className="header__link-effect">&lt;/a&gt;</span>
+              Контакты
             </Link>
           </li>
         </ul>
