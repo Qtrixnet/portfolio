@@ -37,6 +37,7 @@
 
 .about__techs-list-item {
   padding: 10px 0;
+  margin: 0 auto;
 }
 
 .about__my-techs-list {
@@ -44,7 +45,7 @@
   justify-content: space-evenly;
   align-items: center;
   max-width: 1440px;
-  width: 70%;
+  width: 100%;
   font-weight: 700;
   font-size: 48px;
   line-height: 1.2;
@@ -54,9 +55,8 @@
 }
 
 .about__my-techs-list-item {
-  margin: 0 10px;
   position: relative;
-  width: 10%;
+  width: 100%;
   text-align: center;
 }
 
@@ -71,6 +71,7 @@
   text-transform: capitalize;
   width: 100%;
   opacity: 1;
+  text-align: center;
 }
 
 @media screen and (max-width: 1280px) {
@@ -84,7 +85,7 @@
 @media screen and (max-width: 768px) {
   .about__my-techs-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 60px;
   }
 }

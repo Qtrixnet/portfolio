@@ -43,7 +43,7 @@ font-family: 'Montserrat Alternates', sans-serif; */
 
 .app * {
   box-sizing: border-box;
-  /* outline: 1px dashed var(--accent-color); */
+  outline: 1px dashed var(--accent-color);
   transition: all 0.2s ease-in-out;
   font-family: 'Montserrat Alternates', sans-serif;
 }
