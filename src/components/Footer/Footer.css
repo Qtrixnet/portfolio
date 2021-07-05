@@ -1,5 +1,5 @@
 .footer {
-  padding-top: 30px;
+  padding: 50px 0 20px 0;
   width: 100%; 
   max-width: 1440px;
   margin: 0 auto;
@@ -7,7 +7,7 @@
 
 .footer__cards {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
@@ -17,6 +17,7 @@
   justify-content: center;
   align-items: center;
   width: 175px;
+  margin: 0 auto;
 }
 
 .footer__card-icon {
@@ -44,6 +45,7 @@
 .footer__card-title {
   margin: 0;
   padding: 18px 0 3px;
+  text-align: center;
 }
 
 .footer__card-subtitle {
@@ -86,11 +88,7 @@
 }
 
 @media screen and (max-width: 375px) {
-  .footer {
-    padding: 20px;
-  }
   .footer__cards {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
     gap: 40px;

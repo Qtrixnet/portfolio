@@ -1,5 +1,5 @@
 import "./Hero.css";
-import React, { useState } from "react";
+import React from "react";
 import { aboutMe } from "../../utils/constants";
 import cv from "../../images/Kirill-Shashichev.pdf"
 

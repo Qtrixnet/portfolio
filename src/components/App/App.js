@@ -16,9 +16,9 @@ function App() {
           <main>
             <Hero />
             <About />
-            {/* <Projects /> */}
+            <Projects />
           </main>
-          {/* <Footer /> */}
+          <Footer />
         </Route>
       </Switch>
     </div>
