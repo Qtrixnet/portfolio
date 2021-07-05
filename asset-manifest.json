@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.7af10866.chunk.css",
+    "main.css": "./static/css/main.4be91f90.chunk.css",
     "main.js": "./static/js/main.03f2f8a6.chunk.js",
     "main.js.map": "./static/js/main.03f2f8a6.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.215e00d2.js",
@@ -8,7 +8,7 @@
     "static/js/2.630777ad.chunk.js": "./static/js/2.630777ad.chunk.js",
     "static/js/2.630777ad.chunk.js.map": "./static/js/2.630777ad.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.7af10866.chunk.css.map": "./static/css/main.7af10866.chunk.css.map",
+    "static/css/main.4be91f90.chunk.css.map": "./static/css/main.4be91f90.chunk.css.map",
     "static/js/2.630777ad.chunk.js.LICENSE.txt": "./static/js/2.630777ad.chunk.js.LICENSE.txt",
     "static/media/Kirill-Shashichev.fb4ea416.pdf": "./static/media/Kirill-Shashichev.fb4ea416.pdf",
     "static/media/Hero.css": "./static/media/avatar.0319fdec.JPG",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.215e00d2.js",
     "static/js/2.630777ad.chunk.js",
-    "static/css/main.7af10866.chunk.css",
+    "static/css/main.4be91f90.chunk.css",
     "static/js/main.03f2f8a6.chunk.js"
   ]
 }
