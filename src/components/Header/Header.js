@@ -13,7 +13,7 @@ function Header() {
     setIsClicked(true)
   }
   return (
-    <header className="header">
+    <header className="header container pt-4">
       <p className="header__title">
         Kirill S.
       </p>

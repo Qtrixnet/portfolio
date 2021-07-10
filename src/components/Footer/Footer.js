@@ -3,16 +3,16 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer" id="contacts">
-      <div className="footer__cards">
-        <div className="footer__card">
+    <footer className="footer container pt-5 pb-5" id="contacts">
+      <div className="footer__cards row justify-content-md-center row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+        <div className="footer__card col mb-3">
           <div className="footer__card-icon">
             <i className="bx bxs-user"></i>
           </div>
           <h4 className="footer__card-title">Имя</h4>
           <p className="footer__card-subtitle">Кирилл Шашичев</p>
         </div>
-        <div className="footer__card">
+        <div className="footer__card col mb-3">
           <a
             href="mailto:qtrixnet@yandex.ru?subject=Переход со страницы портфолио"
             className="footer__card-icon footer__card-icon_active"
@@ -25,7 +25,7 @@ function Footer() {
           <h4 className="footer__card-title">Email</h4>
           <p className="footer__card-subtitle">qtrixnet@yandex.ru</p>
         </div>
-        <div className="footer__card">
+        <div className="footer__card col mb-3">
           <a
             href="https://api.whatsapp.com/send?phone=77006517000"
             className="footer__card-icon footer__card-icon_active"
@@ -38,7 +38,7 @@ function Footer() {
           <h4 className="footer__card-title">Телефон / WhatsApp</h4>
           <p className="footer__card-subtitle">+7 700 651 7000</p>
         </div>
-        <div className="footer__card">
+        <div className="footer__card col mb-3">
           <a
             href="https://t.me/cyril_sv"
             className="footer__card-icon footer__card-icon_active"
@@ -51,7 +51,7 @@ function Footer() {
           <h4 className="footer__card-title">Telegram</h4>
           <p className="footer__card-subtitle">@ciryl_sv</p>
         </div>
-        <div className="footer__card">
+        <div className="footer__card col mb-3">
           <a
             href="https://github.com/Qtrixnet"
             className="footer__card-icon footer__card-icon_active"

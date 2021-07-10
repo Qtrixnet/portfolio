@@ -1,7 +1,7 @@
 
 .header {
   width: 100%;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,6 +55,7 @@
 
 .header__link:hover {
   box-shadow: 0 0 0 1px var(--text-color), 0 0 0 2px var(--text-color);
+  color: var(--text-color);
 }
 
 .header__link:hover .header__link-effect {
