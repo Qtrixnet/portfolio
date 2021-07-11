@@ -4,6 +4,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 
 function Header() {
+  console.log('Header')
   const [isClicked, setIsClicked] = useState(false);
 
   function handleClose() {

@@ -1,7 +1,7 @@
 import "./Hero.css";
 import React from "react";
 import { aboutMe } from "../../utils/hero-constants";
-import cv from "../../images/Kirill-Shashichev.pdf"
+import cv from "../../images/Kirill-Shahsichev-Frontend.pdf"
 
 function Hero() {
   const { name, profession, github } = aboutMe

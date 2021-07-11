@@ -8,6 +8,7 @@ import Footer from "../Footer/Footer";
 import { Route, Switch } from "react-router-dom";
 
 function App() {
+  console.log('App')
   return (
     <div className="app">
       <Switch>
