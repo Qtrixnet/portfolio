@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "./static/css/main.de00470b.chunk.css",
-    "main.js": "./static/js/main.3bd91e3c.chunk.js",
-    "main.js.map": "./static/js/main.3bd91e3c.chunk.js.map",
+    "main.js": "./static/js/main.34fa99fe.chunk.js",
+    "main.js.map": "./static/js/main.34fa99fe.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.215e00d2.js",
     "runtime-main.js.map": "./static/js/runtime-main.215e00d2.js.map",
-    "static/js/2.90c52a67.chunk.js": "./static/js/2.90c52a67.chunk.js",
-    "static/js/2.90c52a67.chunk.js.map": "./static/js/2.90c52a67.chunk.js.map",
+    "static/js/2.9d468f7c.chunk.js": "./static/js/2.9d468f7c.chunk.js",
+    "static/js/2.9d468f7c.chunk.js.map": "./static/js/2.9d468f7c.chunk.js.map",
     "index.html": "./index.html",
     "static/css/main.de00470b.chunk.css.map": "./static/css/main.de00470b.chunk.css.map",
-    "static/js/2.90c52a67.chunk.js.LICENSE.txt": "./static/js/2.90c52a67.chunk.js.LICENSE.txt",
+    "static/js/2.9d468f7c.chunk.js.LICENSE.txt": "./static/js/2.9d468f7c.chunk.js.LICENSE.txt",
     "static/media/Kirill-Shashichev.fb4ea416.pdf": "./static/media/Kirill-Shashichev.fb4ea416.pdf",
     "static/media/Hero.css": "./static/media/avatar.0319fdec.JPG",
     "static/media/Header.css": "./static/media/circles.a7474d8e.svg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.215e00d2.js",
-    "static/js/2.90c52a67.chunk.js",
+    "static/js/2.9d468f7c.chunk.js",
     "static/css/main.de00470b.chunk.css",
-    "static/js/main.3bd91e3c.chunk.js"
+    "static/js/main.34fa99fe.chunk.js"
   ]
 }
