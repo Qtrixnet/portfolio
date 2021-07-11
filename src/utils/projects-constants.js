@@ -44,18 +44,24 @@ export const projects = [
     githubLink: "https://github.com/Qtrixnet/how-to-learn",
     id: 4,
   },
-]
-
-export const aboutMe = {
-  name: 'Кирилл Шашичев',
-  profession: 'Junior frontend-разработчик',
-  cv: 'https://github.com/Qtrixnet',
-  github: 'https://github.com/Qtrixnet'
-}
-
-export const myTargets = [
-  '🧼 Стараюсь писать чистый код',
-  '😎 Хочу работать в команде опытных профессионалов',
-  '🔥 Хочу работать в высоконагруженных проектах',
-  '⏱ Учусь анализировать сложность алгоритмов / улучшать производительность',
+  {
+    picture: howToLearn,
+    name: "Научиться учиться",
+    details: "Сайт со статичной версткой (SASS)",
+    demo: "Github pages",
+    demoLink: "https://qtrixnet.github.io/how-to-learn/",
+    github: "Репозиторий",
+    githubLink: "https://github.com/Qtrixnet/how-to-learn",
+    id: 5,
+  },
+  {
+    picture: howToLearn,
+    name: "Научиться учиться",
+    details: "Сайт со статичной версткой (SASS)",
+    demo: "Github pages",
+    demoLink: "https://qtrixnet.github.io/how-to-learn/",
+    github: "Репозиторий",
+    githubLink: "https://github.com/Qtrixnet/how-to-learn",
+    id: 6,
+  },
 ]

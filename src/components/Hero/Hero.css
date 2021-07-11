@@ -1,51 +1,38 @@
 @keyframes breath {
   0% {
-    border-radius: 45% 55% 51% 49% / 26% 42% 58% 74%;
+    border-radius: 45% 55% 50% 50% / 30% 45% 60% 75%;
   }
   10% {
-    border-radius: 38% 62% 37% 63% / 44% 32% 68% 56%;
+    border-radius: 40% 65% 40% 65% / 45% 30% 70% 60%;
   }
   20% {
-    border-radius: 47% 53% 49% 51% / 51% 45% 55% 49%;
+    border-radius: 50% 55% 50% 50% / 50% 45% 55% 50%;
   }
   30% {
-    border-radius: 35% 65% 34% 66% / 60% 35% 65% 40%;
+    border-radius: 35% 65% 35% 65% / 60% 35% 65% 40%;
   }
   40% {
-    border-radius: 42% 58% 46% 54% / 69% 31% 69% 31%;
+    border-radius: 40% 60% 45% 55% / 70% 30% 70% 30%;
   }
   50% {
-    border-radius: 74% 26% 59% 41% / 40% 58% 42% 60%;
+    border-radius: 75% 25% 60% 40% / 40% 60% 45% 60%;
   }
   60% {
-    border-radius: 42% 58% 46% 54% / 69% 31% 69% 31%;
+    border-radius: 40% 60% 45% 55% / 70% 30% 70% 30%;
   }
   70% {
-    border-radius: 35% 65% 34% 66% / 60% 35% 65% 40%;
+    border-radius: 35% 65% 35% 65% / 60% 35% 65% 40%;
   }
   80% {
-    border-radius: 47% 53% 49% 51% / 51% 45% 55% 49%;
+    border-radius: 50% 55% 50% 50% / 50% 45% 55% 50%;
   }
   90% {
-    border-radius: 38% 62% 37% 63% / 44% 32% 68% 56%;
+    border-radius: 40% 65% 40% 65% / 45% 30% 70% 60%;
   }
   100% {
-    border-radius: 45% 55% 51% 49% / 26% 42% 58% 74%;
+    border-radius: 45% 55% 50% 50% / 30% 45% 60% 75%;
   }
 }
-
-/* .hero {
-  width: 100%;
-  max-width: 1440px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-} */
-
-/* .hero__info {
-  margin-right: 20px;
-} */
 
 .hero__avatar {
   width: 650px;
@@ -53,9 +40,8 @@
   border-radius: 50%;
   animation: breath 30s linear infinite;
   background-color: var(--accent-color);
-  border: 8px solid var(--accent-color);
   box-shadow: 0 15px 50px -15px var(--accent-color);
-  background-image: url('../../images/avatar.JPG');
+  background-image: url("../../images/avatar.JPG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 70%;
@@ -74,7 +60,7 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 1.2;
-  margin: 15px 0 0px;
+  margin: 25px 0 25px;
   color: rgba(255, 255, 255, 0.5);
   z-index: 9999;
   width: 100%;
@@ -112,25 +98,11 @@
   text-align: center;
 }
 
-/* .hero__link_circle {
-  border-radius: 50%;
-  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  height: 0px;
-  width: 0px;
-  z-index: 1;
-} */
-
 .hero__link:hover {
   box-shadow: 0 15px 30px -15px rgba(255, 255, 255, 0.5);
-  opacity: .9;
+  opacity: 0.9;
+  color: var(--main-bg-color);
 }
-
-/* .hero__link:hover .hero__link_circle {
-  height: 250px;
-  width: 250px;
-} */
 
 .hero__list-item:nth-last-of-type(1) {
   margin-right: 0;
@@ -155,8 +127,8 @@
 
 @media screen and (max-width: 1200px) {
   .hero__avatar {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
   }
   .hero__title {
     font-size: 42px;
@@ -169,8 +141,8 @@
 
 @media screen and (max-width: 1000px) {
   .hero__avatar {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
   }
   .hero__title {
     font-size: 45px;
@@ -202,7 +174,6 @@
   .hero__avatar {
     width: 500px;
     height: 500px;
-    margin-bottom: 35px;
   }
   .hero__title {
     font-size: 48px;
@@ -223,8 +194,8 @@
 
 @media screen and (max-width: 640px) {
   .hero__avatar {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
   }
   .hero__title {
     font-size: 38px;
@@ -239,12 +210,8 @@
 
 @media screen and (max-width: 425px) {
   .hero__avatar {
-    width: 100%;
-    margin-bottom: 35px;
-  }
-  .hero__avatar {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
   .hero__title {
     font-size: 28px;

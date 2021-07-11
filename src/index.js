@@ -3,13 +3,13 @@ import "./vendor/normalize.css";
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App/App";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <HashRouter>
-      <App />
-    </HashRouter>
-  </React.StrictMode>,
+  // <React.StrictMode>
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  /* </React.StrictMode>, */ 
   document.getElementById("root")
 );
