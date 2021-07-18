@@ -14,6 +14,8 @@ function Projects() {
                 className="projects__image"
                 alt={project.name}
                 src={project.picture}
+                width="405px"
+                height="261px"
               />
               <div className="project__details">
                 <span className="project__details-text">

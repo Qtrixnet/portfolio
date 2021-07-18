@@ -19,7 +19,7 @@ function About() {
           techs.map((iconBox, index) => {
             const { icon, name } = iconBox;
             return <li title={name} key={index} className="about__my-techs-list-item mb-5 col">
-              <img className="about__my-techs_icon" src={icon} alt={name} />
+              <img className="about__my-techs_icon" width="48px" height="48px" src={icon} alt={name} />
               <span className="about__my-techs-list-text">{name}</span>
             </li>
           })

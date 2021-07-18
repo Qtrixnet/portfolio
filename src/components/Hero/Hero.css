@@ -41,7 +41,7 @@
   animation: breath 30s linear infinite;
   background-color: var(--accent-color);
   box-shadow: 0 15px 50px -15px var(--accent-color);
-  background-image: url("../../images/avatar.JPG");
+  background-image: url("../../images/avatar.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 70%;
